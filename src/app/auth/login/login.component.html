@@ -1,0 +1,23 @@
+<div class="conatiner">
+    <mat-grid-list cols="3">
+        <mat-grid-tile></mat-grid-tile>
+        <mat-grid-tile>
+            <mat-card id="loginCard">
+                <mat-card-title class="text-center">Login</mat-card-title>
+                <mat-card-content>
+                    <app-email></app-email>
+                    <mat-form-field class="example-full-width" appearance="fill">
+                        <mat-label>Password</mat-label>
+                        <input matInput type="password" placeholder="Password" required>
+                    </mat-form-field>
+                    <br>
+                    <button style="margin-left: 25%;margin-right:25%; width: 50%;" mat-raised-button color="primary">Submit</button>
+                    <a mat-button href="https://www.google.com/" style="margin: 5% 30% 0% 30%; width: 40%;" target="_blank">Sign up</a>
+                </mat-card-content>
+            </mat-card>
+        </mat-grid-tile>
+        <mat-grid-tile></mat-grid-tile>
+    </mat-grid-list>
+</div>
+
+
